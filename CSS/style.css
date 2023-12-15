@@ -1,0 +1,45 @@
+#log{
+   width: 160px;
+   height: 100px;
+}
+nav{
+    border-bottom: 2px solid green;
+}
+#sec1{
+    background-image: url("/img/Untitled-89.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+
+}
+
+
+
+
+ /* Medium screen display (md) */
+ @media (max-width: 991px) {
+    #heading{
+        font-size: 40px;
+    }
+    #mainline{
+        font-size: 25px;
+    }
+    }
+    @media (max-width: 768px) {
+        #pic1{
+             margin-top: 20px;
+            width: 100%;
+            height: 250px;
+        }
+        #heading{
+            font-size: 30px;
+        }
+        #mainline{
+            font-size: 15px;
+        }
+    }
+    #new1{
+        background-color: gray;
+    }
+   
